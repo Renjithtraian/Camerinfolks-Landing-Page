@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,300&family=Oswald:wght@300&family=Poppins:wght@300&family=Roboto+Condensed:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,300&family=Oswald:wght@300&family=Poppins:wght@300&family=Roboto+Condensed:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Main-section .banner{
+    
+    height: 550px;
+    background: linear-gradient(rgba(0,0,0,0)50%,rgba(0,0,0,0)50%),url(../Components/images/doctor2.jpg) top center repeat-y;
+    object-fit: cover;
+    background-size: 100%; 
+    background-position: center;
+    /* background-repeat: no-repeat; */
+}
+.content{
+    margin-top: 55px;
+}
+.content img{
+    height: 110px;
+    width: 300px;
+    margin-top: 80px;
+    position: relative;
+    top: -15px;
+}
+.content p{
+    width: 560px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    text-align: left;
+}
+.content .Reg-btn{
+    height: 50px;
+    width: 230px;
+    background-color: #e12454;
+    color: white;
+    border-radius: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.content .Reg-btn span{
+    margin-left: 12px;
+    color: rgb(181, 180, 180);
+}
+.Reg-btn h5{
+    margin-left: 17px;
+    margin-top: 7px;
+}
+
+.content .Reg-btn:hover{
+    background-color: #00cca3;
+    color: white;
+}
+
+.card-section .bshadow{
+    box-shadow: 0px 0px 30px 0px rgb(0 42 106 / 10%);
+    border-radius: 15px 15px 15px 15px;
+}
+
+.card-section img{
+    height: 35px;
+    width: 35px;
+    margin-top: 32px;
+    margin-left: 14px;
+}
+.card-section .cardBody{
+    text-align: left;
+}
+.card-section .title-section h2{
+    line-height: 22px;
+    font-weight: 600;
+}
+.features .cardBody{
+    position: relative;
+    bottom: 2px;
+}
+.features .m-container{
+    position: relative;
+    top: -69px;
+}
+
+.title-section h3,.h3{
+    font-size: 16px;
+    color: #6F8BA4;
+    font-weight: 400;
+}
+.title-section h2{
+    color: #223a66;
+    font-size: 1.3rem;
+}
+.cardBody .h3{
+    font-size: 14px;
+    line-height: 30px;
+}
+.cardBody .cardText{
+    font-size: 16px;
+    color: #6F8BA4;
+    line-height: 30px;
+}
+.cardBody .cardText .listItems{
+    margin-left: -30px;
+    margin-top: -1px;
+}
+.listItems li{
+    border-bottom: 1px solid rgb(224, 218, 218);
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainptr-container h2{
+    color: #223a66;
+    font-size: 44px;
+    font-weight: 700;
+}
+.partners-block h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+
+}
+
+.row .col-lg-3 .partners-block img{
+    transition: 0.5s ease-in-out;
+}
+.row .col-lg-3 .partners-block .img:hover{
+    animation: bounce 1s linear infinite;
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    60%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.info-container{
+    background-color: #1f3d7a;
+}
+.hospital-info h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+    margin-top: 10px;
+}
+.hospital-info h1 span{
+    font-size: 18px;
+    font-weight: 10;
+    color: rgb(209, 206, 206);
+}
+.hospital-info h3{
+    color: rgb(179, 178, 178);
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: -11px;
+    text-transform: uppercase;
+}
